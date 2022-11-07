@@ -1,0 +1,83 @@
+/* reseteo basico de estilos*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+
+    background-color: #1B244A;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.tablero {
+
+    border: 5px solid white;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.boton {
+
+    background-color: transparent;
+    border: 2px solid #9aabd8;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 15px;
+    color: #9aabd8;
+}
+
+.boton:hover {
+
+    background-color: #9aabd8;
+    color: white;
+}
+
+.team {
+
+    font-family: 'Verdana';
+    color: white;
+}
+
+#home-score {
+    text-align: right;
+    background-color: black;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    font-size: 90px
+}
+
+#guest-score {
+    text-align: right;
+    background-color: black;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    font-size: 90px
+}
+
+
+/*
+#home-side {
+  
+}
+
+#guest-side {
+    
+} 
+*/

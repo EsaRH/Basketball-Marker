@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tablero">
+            <div id="home-side">
+                <h3 class="Team">HOME</h3>
+                <p id="home-score">
+                    0
+                </p>
+                <div>
+                    <button class="boton" onclick="incrementHome1()">+1</button>
+                    <button class="boton" onclick=" incrementHome2()">+2</button>
+                    <button class="boton" onclick=" incrementHome3()">+3</button>
+                </div>
+            </div>
+            <div id="guest-side">
+                <h3 class="Team">GUEST</h3>
+                <p id="guest-score">
+                    0
+                </p>
+                <div>
+                    <button class="boton" onclick="incrementGuest1()">+1</button>
+                    <button class="boton" onclick="incrementGuest2()">+2</button>
+                    <button class="boton" onclick="incrementGuest3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <button class="boton" onclick="clearCount()">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
