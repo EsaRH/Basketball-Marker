@@ -6,10 +6,13 @@
 
 }
 
+/*Alinea en el centro de lo alto*/
 body {
 
     display: flex;
+    /*Alinea en el centro de lo alto*/
     align-items: center;
+    /*Alinea en el centro de lo largo*/
     justify-content: center;
     min-height: 100vh;
 }
@@ -60,7 +63,8 @@ body {
     background-color: black;
     font-family: 'Cursed Timer ULiL';
     color: #F94F6D;
-    font-size: 90px
+    font-size: 90px;
+    border-radius: 3px;
 }
 
 #guest-score {
@@ -68,16 +72,6 @@ body {
     background-color: black;
     font-family: 'Cursed Timer ULiL';
     color: #F94F6D;
-    font-size: 90px
+    font-size: 90px;
+    border-radius: 3px;
 }
-
-
-/*
-#home-side {
-  
-}
-
-#guest-side {
-    
-} 
-*/
