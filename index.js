@@ -4,30 +4,15 @@ let guestScore = document.getElementById("guest-score");
 let countHome = 0
 let countGuest = 0
 
-function incrementHome1() {
-    countHome += 1;
-    homeScore.innerText = countHome;
-}
-function incrementHome2() {
-    countHome += 2;
-    homeScore.innerText = countHome;
-}
-function incrementHome3() {
-    countHome += 3;
-    homeScore.innerText = countHome;
-}
+function increment(puntaje, equipo) {
 
-function incrementGuest1() {
-    countGuest += 1;
-    guestScore.innerText = countGuest;
-}
-function incrementGuest2() {
-    countGuest += 2;
-    guestScore.innerText = countGuest;
-}
-function incrementGuest3() {
-    countGuest += 3;
-    guestScore.innerText = countGuest;
+    if (equipo == "home") {
+        countHome += puntaje;
+        homeScore.innerText = countHome;
+    } else if (equipo == "guest") {
+        countGuest += puntaje;
+        guestScore.innerText = countGuest;
+    }
 }
 
 function clearCount() {
